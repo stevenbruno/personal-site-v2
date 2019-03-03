@@ -11,10 +11,10 @@ const NavLink = props => (
 export default () => (
   <div className={navStyles.container}>
     <nav>
-      <NavLink to="../pages/index/">Home</NavLink>
-      <NavLink to="../pages/writing/">Writing</NavLink>
-      <NavLink to="../pages/projects/">Projects</NavLink>
-      <NavLink to="../pages/listening/">Listening</NavLink>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/writing/">Writing</NavLink>
+      <NavLink to="/projects/">Projects</NavLink>
+      <NavLink to="/listening/">Listening</NavLink>
     </nav>
     <div>
       <p>Social</p>
