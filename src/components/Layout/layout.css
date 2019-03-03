@@ -25,6 +25,11 @@ summary {
 main {
   display: flex;
 }
+@media (min-width: 768px) {
+  main {
+    margin: 15vh 0 0 15vh;
+  }
+}
 audio,
 canvas,
 progress,
