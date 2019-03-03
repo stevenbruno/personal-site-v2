@@ -1,13 +1,14 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
-import LeftNav from "../components/leftNav"
+import LeftNav from "../components/LeftNav/leftNav"
+import Content from "../components/Content/content";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LeftNav />
-    <div>
+    <Content>
       <h1>Steven Bruno</h1>
       <p>
         I'm a web designer and developer working in Chicago. 
@@ -20,7 +21,7 @@ const IndexPage = () => (
       <p>
         Reach me at <span>sbruno636@gmail.com</span>
       </p>
-    </div>
+    </Content>
   </Layout>
 )
 
