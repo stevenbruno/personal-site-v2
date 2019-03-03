@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
+/* const Image = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -30,3 +30,4 @@ const Image = () => (
   />
 )
 export default Image
+ */
