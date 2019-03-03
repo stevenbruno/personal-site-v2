@@ -2,10 +2,21 @@ nav {
   display: flex;
   flex-direction: column;
   list-style: none;
+  margin-bottom: 24px;
+}
+
+nav > li {
+  margin-bottom: 0;
 }
 
 .container {
   text-align: right;
+  padding: 32px 64px 0 0;
+}
+
+.container > nav,
+.container > div {
+  margin-bottom: 24px;
 }
 
 a {
@@ -14,5 +25,11 @@ a {
 }
 
 a:hover {
+  font-weight: 600;
   color: #000000;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
 }

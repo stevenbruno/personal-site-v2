@@ -17,11 +17,11 @@ export default () => (
       <NavLink to="/listening/">Listening</NavLink>
     </nav>
     <div>
-      <p>Social</p>
+      <h3>Social</h3>
       <div>Icons</div>
     </div>
     <div>
-      <p>Contact</p>
+      <h3>Contact</h3>
       <p>sbruno636@gmail.com</p>
     </div>
   </div>
