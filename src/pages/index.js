@@ -19,7 +19,7 @@ const IndexPage = () => (
         I enjoy anything and everything Python. 
       </p>
       <p>
-        Reach me at <span>sbruno636@gmail.com</span>
+        Reach me at <b>sbruno636@gmail.com</b>
       </p>
     </Content>
   </Layout>
