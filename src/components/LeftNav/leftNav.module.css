@@ -6,17 +6,17 @@ nav {
 }
 
 nav > li {
-  margin-bottom: 0;
+  margin-bottom: 0.35rem;
 }
 
 .container {
   text-align: right;
-  padding: 32px 64px 0 0;
+  padding: 32px 124px 0 0;
 }
 
 .container > nav,
 .container > div {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 a {
@@ -26,10 +26,27 @@ a {
 
 a:hover {
   font-weight: 600;
-  color: #000000;
+  color: rebeccapurple;
 }
 
 h3 {
+  color: #556680;
   font-size: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 2px;
+}
+
+.active {
+  color: rebeccapurple;
+  font-weight: 600;
+  margin-right: -2px;
+} 
+
+.active::after {
+  background: rebeccapurple;
+  border-radius: 4px;
+  color: rebeccapurple;
+  content: ".";
+  left: 8px;
+  margin-right: -4px;
+  position: relative;
 }
