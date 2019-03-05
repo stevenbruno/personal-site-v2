@@ -73,10 +73,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -234,6 +230,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
+  color: #4b4b4b;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -241,14 +238,18 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
+  margin-bottom: 2.5rem;
   font-family:  Inconsolata, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.1;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 h2 {
   margin-left: 0;
@@ -275,8 +276,8 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 0;
-  color: #516072;
+  margin-bottom: 4px;
+  color: #556680;
   font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
