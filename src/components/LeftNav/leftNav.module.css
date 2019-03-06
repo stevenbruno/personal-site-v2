@@ -50,3 +50,7 @@ h3 {
   margin-right: -4px;
   position: relative;
 }
+
+.email {
+  font-size: 0.75rem;
+}
