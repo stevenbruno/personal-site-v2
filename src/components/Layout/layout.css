@@ -208,7 +208,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #484848;
   font-family:  'Open Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
