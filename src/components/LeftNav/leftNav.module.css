@@ -25,7 +25,6 @@ a {
 }
 
 a:hover {
-  font-weight: 600;
   color: rebeccapurple;
 }
 
@@ -42,15 +41,24 @@ h3 {
 } 
 
 .active::after {
-  background: rebeccapurple;
-  border-radius: 4px;
   color: rebeccapurple;
-  content: ".";
+  content: "~";
   left: 8px;
-  margin-right: -4px;
+  margin-right: -9px;
+  padding-bottom: 1px;
   position: relative;
 }
 
 .email {
   font-size: 0.75rem;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social > * {
+  margin-left: 0.5rem;
+  margin-top: 0.25rem;
 }
