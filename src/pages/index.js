@@ -3,8 +3,10 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import LeftNav from "../components/LeftNav/leftNav"
 import Content from "../components/Content/content";
+import { graphql } from "gatsby";
+import Img from "gatsby-image"
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LeftNav />
@@ -21,8 +23,21 @@ const IndexPage = () => (
       <p>
         Reach me at <b>sbruno636@gmail.com</b>
       </p>
+      <Img fixed={props.data.imageOne.childImageSharp.fixed} />
     </Content>
   </Layout>
 )
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "headshotV6.jpg" }) {
+      childImageSharp {
+        fixed(width: 600) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
