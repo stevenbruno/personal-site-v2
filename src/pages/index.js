@@ -23,7 +23,6 @@ const IndexPage = (props) => (
       <p>
         Reach me at <b>sbruno636@gmail.com</b>
       </p>
-      <Img fixed={props.data.imageOne.childImageSharp.fixed} />
     </Content>
   </Layout>
 )
