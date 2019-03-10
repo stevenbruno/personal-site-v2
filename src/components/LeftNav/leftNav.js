@@ -27,13 +27,13 @@ export default () => (
     <div>
       <h3>Social</h3>
       <div className={navStyles.social}>
-        <a href="https://www.linkedin.com/in/stevenjbruno/" target="_blank">
+        <a href="https://www.linkedin.com/in/stevenjbruno/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'linkedin']} size='2x' />
         </a>
-        <a href="https://dev.to/stevenbruno" target="_blank">
+        <a href="https://dev.to/stevenbruno" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'dev']} size='2x' />
         </a>
-        <a href="https://github.com/stevenbruno" target="_blank">
+        <a href="https://github.com/stevenbruno" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'github-square']} size='2x' />
         </a>
       </div>
