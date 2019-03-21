@@ -10,6 +10,7 @@ const ProjectsPage = () => (
     <LeftNav />
     <Content>
       <h1>Projects</h1>
+      <p>Coming soon ...</p>
     </Content>
   </Layout>
 )

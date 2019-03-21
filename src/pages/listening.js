@@ -10,6 +10,7 @@ const ListeningPage = () => (
     <LeftNav />
     <Content>
       <h1>Listening</h1>
+      <p>Coming soon ...</p>
     </Content>
   </Layout>
 )
