@@ -4,7 +4,6 @@ import SEO from "../components/seo"
 import LeftNav from "../components/LeftNav/leftNav"
 import Content from "../components/Content/content";
 import { graphql } from "gatsby";
-import Img from "gatsby-image"
 
 const IndexPage = (props) => (
   <Layout>
