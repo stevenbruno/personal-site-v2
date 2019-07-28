@@ -22,7 +22,7 @@ export default () => (
       <NavLink to="/">Home</NavLink>
       <NavLink to="/writing/">Writing</NavLink>
       <NavLink to="/projects/">Projects</NavLink>
-      <NavLink to="/listening/">Listening</NavLink>
+      {/* <NavLink to="/listening/">Listening</NavLink> */}
     </nav>
     <div>
       <h3>Social</h3>
