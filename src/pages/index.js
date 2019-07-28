@@ -1,9 +1,14 @@
-import React from "react"
+import * as React from "react"
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import LeftNav from "../components/LeftNav/leftNav"
-import Content from "../components/Content/content";
-import { graphql } from "gatsby";
+import Content from "../components/Content/content"
+import { graphql } from "gatsby"
+
+// Prevent fontawesome from dynamically adding its css since we did it manually above
+config.autoAddCss = false;
 
 const IndexPage = (props) => (
   <Layout>
@@ -12,7 +17,7 @@ const IndexPage = (props) => (
     <Content>
       <h1>Steven Bruno</h1>
       <p>
-        I'm a web designer and developer working in Chicago. 
+        I'm a product designer and developer working in Chicago. 
         Before this, I studied Civil Engineering (Northwestern University '18)
       </p>
       <p>
