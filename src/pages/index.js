@@ -5,12 +5,13 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import LeftNav from "../components/LeftNav/leftNav"
 import Content from "../components/Content/content"
-import { graphql } from "gatsby"
+import headshot from '../data/headshot2.jpg' 
+import indexStyles from './indexStyles.module.css'
 
 // Prevent fontawesome from dynamically adding its css since we did it manually above
 config.autoAddCss = false;
 
-const IndexPage = (props) => (
+const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LeftNav />
@@ -27,20 +28,9 @@ const IndexPage = (props) => (
       <p>
         Reach me at <b>sbruno636@gmail.com</b>
       </p>
+      <img src={headshot} alt="headshot" className={indexStyles.headshot} />
     </Content>
   </Layout>
 )
 
 export default IndexPage
-
-export const pageQuery = graphql`
-  query {
-    imageOne: file(relativePath: { eq: "headshotV6.jpg" }) {
-      childImageSharp {
-        fixed(width: 600) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`
