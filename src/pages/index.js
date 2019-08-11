@@ -16,18 +16,20 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LeftNav />
     <Content>
-      <h1>Steven Bruno</h1>
-      <p>
-        I'm a product designer and developer working in Chicago. 
-        Before this, I studied Civil Engineering (Northwestern University '18)
-      </p>
-      <p>
-        At work, I focus on front-end web technologies, but at home, 
-        I enjoy anything and everything Python. 
-      </p>
-      <p>
-        Reach me at <b>sbruno636@gmail.com</b>
-      </p>
+      <section className={indexStyles.intro} >
+        <h1>Steven Bruno</h1>
+        <p>
+          I'm a product designer and developer working in Chicago. 
+          Before this, I studied Civil Engineering (Northwestern University '18)
+        </p>
+        <p>
+          At work, I focus on front-end web technologies, but at home, 
+          I enjoy anything and everything Python. 
+        </p>
+        <p>
+          Reach me at <b>sbruno636@gmail.com</b>
+        </p>
+      </section>
       <img src={headshot} alt="headshot" className={indexStyles.headshot} />
     </Content>
   </Layout>

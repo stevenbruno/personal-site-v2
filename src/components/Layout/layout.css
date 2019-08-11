@@ -32,7 +32,7 @@ main {
 @media (min-width: 768px) {
   main {
     flex-direction: row;
-    margin: 20vh auto;
+    margin: 14vh auto;
   }
 }
 audio,
