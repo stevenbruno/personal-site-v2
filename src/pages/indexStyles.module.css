@@ -5,5 +5,11 @@
 }
 
 .intro {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-bottom: 4rem;
+  }
 }
