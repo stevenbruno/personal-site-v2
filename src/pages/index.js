@@ -23,11 +23,12 @@ const IndexPage = () => (
           Before this, I studied Civil Engineering (Northwestern University '18)
         </p>
         <p>
-          At work, I focus on front-end web technologies, but at home, 
-          I enjoy anything and everything Python. 
+          I employ thorough research and Lean UX principles to guide products from
+          conception to production and beyond. 
         </p>
         <p>
-          Reach me at <b>sbruno636@gmail.com</b>
+        Outside of work, I like to read, make music, 
+        and play soccer. Reach me at <b>sbruno636@gmail.com</b>. 
         </p>
       </section>
       <img src={headshot} alt="headshot" className={indexStyles.headshot} />
