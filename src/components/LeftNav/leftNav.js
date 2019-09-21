@@ -39,7 +39,7 @@ export default () => (
       </div>
     </div>
     <div>
-      <h3>Contact</h3>
+      <h3>&#128234; Contact</h3>
       <p className={navStyles.email}>
         <a href="mailto:sbruno636@gmail.com">sbruno636@gmail.com</a>
       </p>
