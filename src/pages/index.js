@@ -19,15 +19,16 @@ const IndexPage = () => (
       <section className={indexStyles.intro} >
         <h1>Steven Bruno</h1>
         <p>
-          I'm a product designer and developer working in Chicago. 
-          Before this, I studied Civil Engineering (Northwestern University '18)
+          I'm a product designer and developer currently working 
+          at <a href="https://pos.toasttab.com/" className={indexStyles.Toast}>Toast</a> in Chicago. 
+          Before this, I studied Civil Engineering (Northwestern University '18).
         </p>
         <p>
           I employ thorough research and Lean UX principles to guide products from
           conception to production and beyond. 
         </p>
         <p>
-        Outside of work, I like to read, make music, 
+        In my spare time, I like to read, make music, 
         and play soccer. Reach me at <b>sbruno636@gmail.com</b>. 
         </p>
       </section>
