@@ -16,7 +16,7 @@ nav > li {
 
 .container > nav,
 .container > div {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 a {
@@ -56,6 +56,7 @@ h3 {
 .social {
   display: flex;
   justify-content: flex-end;
+  color: #657177;
 }
 
 .social > * {
