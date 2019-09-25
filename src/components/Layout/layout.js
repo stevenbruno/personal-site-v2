@@ -25,7 +25,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <main>{children}</main>
+        <main>
+          <div class="topSplash"></div>
+          {children}
+        </main>
       </>
     )}
   />

@@ -41,7 +41,7 @@ h3 {
 } 
 
 .active::after {
-  color: rgb(250, 152, 114);
+  color: var(--splash);
   content: "•";
   left: 8px;
   margin-right: -5px;

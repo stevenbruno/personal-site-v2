@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova:400,600|Crimson+Text:600|Open+Sans:400,600');
 
+:root {
+--splash: #ff7b00;
+}
 html {
-  background-color: #f0f5f8;
+  background-color: #f8fcff;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -34,8 +37,12 @@ main {
     flex-direction: row;
     margin: 14vh auto;
   }
-  html {
-    border-top: 6px solid rgb(250, 152, 114);
+  .topSplash {
+    position: absolute;
+    top: 0;
+    height: 5px;
+    background-color: var(--splash);
+    width: 100%;
   }
 }
 audio,

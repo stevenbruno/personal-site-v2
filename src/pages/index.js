@@ -29,7 +29,8 @@ const IndexPage = () => (
         </p>
         <p>
         In my spare time, I like to read, make music, 
-        and play soccer. Reach me at <b>sbruno636@gmail.com</b>. 
+        and play soccer. If you'd like to get in touch, reach me 
+        at <b>sbruno636@gmail.com</b>. 
         </p>
       </section>
       <img src={headshot} alt="headshot" className={indexStyles.headshot} />
