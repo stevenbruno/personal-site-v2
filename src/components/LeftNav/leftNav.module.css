@@ -3,13 +3,6 @@
   text-align: right;
   padding: 32px 64px 0 0;
   margin-right: 64px;
-  border-right: 6px solid var(--grey3);
-  border-image: 
-    linear-gradient(
-      to bottom,
-      var(--blue2), 
-      var(--grey2)
-    ) 1 100%;
 }
 
 .container > div {
@@ -27,13 +20,28 @@ nav > li {
   margin-bottom: 0.35rem;
 }
 
+@media (min-width: 640px) {
+  nav a:after {
+    color: var(--grey2);
+    content: "►";
+    left: 8px;
+    font-size: 14px;
+    margin-right: -14px;
+    position: relative;
+  }
+  
+  nav .active::after {
+    color: var(--purple3);
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3e65a8;
+  color: var(--blue4);
 }
 
 h3 {
@@ -44,19 +52,9 @@ h3 {
 }
 
 .active {
-  color: #3e65a8;
   font-weight: 600;
-  margin-right: -2px;
+  color: var(--blue4);
 } 
-
-.active::after {
-  color: var(--splash);
-  content: "•";
-  left: 8px;
-  margin-right: -5px;
-  padding-bottom: 1px;
-  position: relative;
-}
 
 .email {
   color: #657177;

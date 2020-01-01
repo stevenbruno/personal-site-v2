@@ -16,8 +16,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <div class="topSplash"></div>
         <main>
-          <div class="topSplash"></div>
           {children}
         </main>
       </>
