@@ -20,6 +20,8 @@ const Layout = ({ children }) => (
         <main>
           {children}
         </main>
+        <div class="triangle"></div>
+        <div class="triangle2"></div>
       </>
     )}
   />
