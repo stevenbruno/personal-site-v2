@@ -11,7 +11,7 @@ const WritingPage = () => (
     <LeftNav />
     <Content>
       <h1>Writing</h1>
-      <p>Coming soon ...</p>
+      <p></p>
       <BlogCard></BlogCard> {/* https://www.youtube.com/watch?v=n1NaVkKdrwc */}
     </Content>
   </Layout>
