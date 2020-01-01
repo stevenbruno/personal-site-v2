@@ -16,10 +16,10 @@
 
 .Toast {
   font-weight:600;
-  color: #ff4c00;
+  color: var(--orange6);
 }
 
 .Toast:hover {
-  border-bottom: 2px solid #ff4c00;
-  color: #ff4c00;
+  border-bottom: 2px solid var(--orange6);
+  color: var(--orange6);
 }
