@@ -1,22 +1,30 @@
+.container {
+  height: 80vh;
+  text-align: right;
+  padding: 32px 64px 0 0;
+  margin-right: 64px;
+  border-right: 6px solid var(--grey3);
+  border-image: 
+    linear-gradient(
+      to bottom,
+      var(--blue2), 
+      var(--grey2)
+    ) 1 100%;
+}
+
+.container > div {
+  margin-bottom: 64px;
+}
+
 nav {
   display: flex;
   flex-direction: column;
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 160px;
 }
 
 nav > li {
   margin-bottom: 0.35rem;
-}
-
-.container {
-  text-align: right;
-  padding: 32px 124px 0 0;
-}
-
-.container > nav,
-.container > div {
-  margin-bottom: 64px;
 }
 
 a {
@@ -29,8 +37,9 @@ a:hover {
 }
 
 h3 {
-  color: #556680;
+  color: #8697b3;
   font-size: 1rem;
+  font-variant: small-caps;
   margin-bottom: 2px;
 }
 
@@ -69,12 +78,14 @@ h3 {
 
 @media (max-width: 640px) {
   .container {
-    background: #e0e0e0;
-    border-bottom: 1px solid lightgrey;
+    border-right: none;
+    background: var(--grey3);
     margin-bottom: 16px;
     padding: 12px;
     padding-bottom: 0;
     text-align: left;
+    height: 140px;
+    margin-right: 0;
 
     display: grid;
     grid-template-columns: 50vw 50vw;

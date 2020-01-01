@@ -25,7 +25,7 @@ export default () => (
       {/* <NavLink to="/listening/">Listening</NavLink> */}
     </nav>
     <div>
-      <h3>Social</h3>
+      <h3>social</h3>
       <div className={navStyles.social}>
         <a href="https://www.linkedin.com/in/stevenjbruno/">
           <FontAwesomeIcon icon={['fab', 'linkedin']} size='lg' />
@@ -39,7 +39,7 @@ export default () => (
       </div>
     </div>
     <div>
-      <h3><span role="img" aria-label="mailEmoji">&#128234;</span> Contact</h3>
+      <h3><span role="img" aria-label="mailEmoji">&#128234;</span> contact</h3>
       <p className={navStyles.email}>
         <a href="mailto:sbruno636@gmail.com">sbruno636@gmail.com</a>
       </p>
