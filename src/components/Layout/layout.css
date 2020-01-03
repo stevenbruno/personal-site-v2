@@ -68,8 +68,7 @@ main {
     width: 100%;
     z-index: 2;
   }
-  .triangle,
-  .triangle2 {
+  .triangle {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -80,6 +79,11 @@ main {
     border-left: 100px solid transparent;
   }
   .triangle2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
     border-top: 100px solid var(--grey2);
     border-right: 100px solid transparent;
     z-index: 1;
