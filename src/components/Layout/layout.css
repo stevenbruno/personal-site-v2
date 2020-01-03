@@ -68,7 +68,8 @@ main {
     width: 100%;
     z-index: 2;
   }
-  .triangle {
+  .triangle,
+  .triangle2 {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -79,11 +80,6 @@ main {
     border-left: 100px solid transparent;
   }
   .triangle2 {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
     border-top: 100px solid var(--grey2);
     border-right: 100px solid transparent;
     z-index: 1;
@@ -256,7 +252,7 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 * {
   box-sizing: inherit;
