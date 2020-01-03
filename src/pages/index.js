@@ -19,7 +19,7 @@ const IndexPage = () => (
       <section className={indexStyles.intro} >
         <h1>Steven Bruno</h1>
         <p>
-          I'm a product designer and developer currently working 
+          I'm a designer and developer currently working 
           at <a href="https://pos.toasttab.com/" className={indexStyles.Toast}>Toast</a> in Chicago. 
           Before this, I studied Civil Engineering (Northwestern University '18).
         </p>
