@@ -53,13 +53,11 @@ main {
 @media (min-width: 768px) {
   main {
     flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 12vw;
     margin: 14vh auto;
   }
   @media (max-height: 1024px) {
     main {
-      margin: 12vh auto 6vh 0;
+      margin: 12vh auto 6vh auto;
     }
   }
   .topSplash {
@@ -90,6 +88,12 @@ main {
     border-top: 100px solid var(--grey2);
     border-right: 100px solid transparent;
     z-index: 1;
+  }
+}
+@media (min-width: 1300px) {
+  main {
+    justify-content: flex-start;
+    padding-left: 20vw;
   }
 }
 audio,
@@ -253,7 +257,7 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 * {
   box-sizing: inherit;
