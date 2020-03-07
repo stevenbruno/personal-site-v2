@@ -16,10 +16,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div class="topSplash"></div>
-        <main>
-          {children}
-        </main>
+        <div className="topSplash"></div>
+        <main>{children}</main>
         <div class="triangle"></div>
         <div class="triangle2"></div>
       </>
