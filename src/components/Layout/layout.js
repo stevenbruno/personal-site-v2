@@ -18,8 +18,8 @@ const Layout = ({ children }) => (
       <>
         <div className="topSplash"></div>
         <main>{children}</main>
-        <div class="triangle"></div>
-        <div class="triangle2"></div>
+        <div className="triangle"></div>
+        <div className="triangle2"></div>
       </>
     )}
   />
