@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova:400,500,600');
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova:400,500,600");
 
 :root {
   --orange5: #ff7b00;
   --orange6: #ff6600;
 
+  --grey0: #f9f9fa;
   --grey1: #f6f8fa;
   --grey2: #f8fcff;
   --grey3: #dde1e7;
@@ -15,10 +16,14 @@
   --blue6: #29508b;
   --blue7: #1a3864;
 
-  --purple3: #cac3db; 
-  --purple4: #ad9fd0; 
-  --purple6: rebeccapurple; 
-}    
+  --purple3: #cac3db;
+  --purple4: #ad9fd0;
+  --purple6: rebeccapurple;
+
+  --elevation1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --transition1: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --elevation2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 
 html {
   background-color: var(--grey2);
@@ -270,7 +275,7 @@ html {
 }
 body {
   color: #484848;
-  font-family:  'Proxima Nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -291,7 +296,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
-  color: var(--blue5);;
+  color: var(--blue5);
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -300,8 +305,8 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.8rem;
-  font-family:  Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 3rem;
@@ -339,8 +344,9 @@ h3 {
   padding-top: 0;
   margin-bottom: 4px;
   color: #556680;
-  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Noto Serif SC", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;

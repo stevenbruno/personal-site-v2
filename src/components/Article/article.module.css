@@ -1,14 +1,54 @@
 .article {
-  background: rgb(234, 237, 240);
+  background: rgba(255, 255, 255, 0.47);
+  margin-bottom: 24px;
+  padding: 16px 16px 12px 16px;
+  border-radius: 4px;
+  box-shadow: var(--elevation1);
+  top: 0;
+  position: relative;
+  transition: top ease 0.5s;
+}
+
+.article p {
+  margin: 0;
 }
 
 .articleDetails {
+  font-size: 16px;
   display: flex;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.47);
+  align-items: center;
 }
 
 .reactionsImg {
+  margin: 0;
   height: 18px;
   border: 0px;
   vertical-align: -4px;
   margin-right: 7px;
+}
+
+.title {
+  font-size: 18 px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.articleLink,
+.articleLink:hover {
+  color: inherit;
+}
+
+.articleLink:hover .article {
+  box-shadow: var(--elevation2);
+  transition: var(--transition1);
+  top: -1px;
+}
+
+.articleLink:hover .title {
+  color: var(--blue4);
+}
+.publishDate {
+  flex-grow: 1;
 }
