@@ -44,8 +44,8 @@ a:hover {
   color: var(--blue4);
 }
 
-h3 {
-  color: #8697b3;
+.smallCaps {
+  color: #687a97;
   font-size: 16px;
   font-weight: 700;
   font-variant: small-caps;
