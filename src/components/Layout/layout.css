@@ -54,20 +54,19 @@ section,
 summary {
   display: block;
 }
+/* small devices */
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+/* medium devices */
 @media (min-width: 768px) {
   main {
     flex-direction: row;
-    margin: 14vh auto;
-  }
-  @media (max-height: 1024px) {
-    main {
-      margin: 12vh auto 6vh auto;
-    }
+    margin-top: 12vh;
+    justify-content: center;
+    margin-left: -8vw;
   }
   .topSplash {
     position: fixed;
@@ -97,12 +96,6 @@ main {
     border-top: 100px solid var(--grey2);
     border-right: 100px solid transparent;
     z-index: 1;
-  }
-}
-@media (min-width: 1300px) {
-  main {
-    justify-content: flex-start;
-    padding-left: 20vw;
   }
 }
 audio,
