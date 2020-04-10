@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Proxima+Nova:400,500,600");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Muli:wght@300&display=swap");
 
 :root {
   --orange5: #ff7b00;
@@ -27,9 +27,13 @@
 
 html {
   background-color: var(--grey2);
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em Nunito, sans-serif;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 body {
   margin: 0;
@@ -259,11 +263,6 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
-html {
-  font: 112.5%/1.45em georgia, serif;
-  box-sizing: border-box;
-  overflow-y: auto;
-}
 * {
   box-sizing: inherit;
 }
@@ -275,7 +274,6 @@ html {
 }
 body {
   color: #484848;
-  font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -305,11 +303,10 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.8rem;
-  font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 3rem;
+  font-family: Muli, sans-serif;
   line-height: 1.1;
 }
 @media (max-width: 768px) {
@@ -327,8 +324,6 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -344,9 +339,6 @@ h3 {
   padding-top: 0;
   margin-bottom: 4px;
   color: #556680;
-  font-family: "Noto Serif SC", -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -362,8 +354,6 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -379,8 +369,6 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -396,8 +384,6 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -458,7 +444,6 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: "Proxima Nova";
   line-height: 1.5;
   margin-left: 0;
   margin-right: 0;
