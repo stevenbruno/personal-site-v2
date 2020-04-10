@@ -14,7 +14,7 @@
 }
 
 .articleDetails {
-  font-size: 16px;
+  font-size: 15px;
   display: flex;
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.47);
@@ -30,7 +30,7 @@
 }
 
 .title {
-  font-size: 18 px;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 8px;
 }

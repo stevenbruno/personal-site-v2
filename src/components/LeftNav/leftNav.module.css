@@ -29,7 +29,7 @@ nav > li {
     margin-right: -14px;
     position: relative;
   }
-  
+
   nav .active::after {
     color: var(--purple3);
   }
@@ -46,7 +46,8 @@ a:hover {
 
 h3 {
   color: #8697b3;
-  font-size: 1rem;
+  font-size: 16px;
+  font-weight: 700;
   font-variant: small-caps;
   margin-bottom: 2px;
 }
@@ -54,11 +55,11 @@ h3 {
 .active {
   font-weight: 600;
   color: var(--blue4);
-} 
+}
 
 .email {
   color: #657177;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-top: 8px;
   font-weight: 400;
 }
@@ -94,7 +95,7 @@ h3 {
   .social {
     grid-row: 1/2;
     justify-content: flex-start;
-  } 
+  }
 
   .social > * {
     margin-left: 0;
@@ -105,7 +106,7 @@ h3 {
   .container > div {
     margin-bottom: 8px;
   }
-  
+
   .container > nav {
     grid-row: 1/3;
   }
