@@ -19,6 +19,7 @@
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.47);
   align-items: center;
+  justify-content: space-between;
 }
 
 .reactionsImg {
@@ -49,6 +50,18 @@
 .articleLink:hover .title {
   color: var(--blue4);
 }
-.publishDate {
-  flex-grow: 1;
+
+.flex {
+  display: flex;
+}
+
+.hoverText {
+  background-image: url("../../data/yellowStroke.png");
+  background-repeat: no-repeat;
+  background-size: 92% 158%;
+  visibility: hidden;
+}
+
+.hovered .hoverText {
+  visibility: visible;
 }
