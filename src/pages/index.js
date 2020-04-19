@@ -31,12 +31,12 @@ const IndexPage = () => (
           University '18).
         </p>
         <p>
-          I employ thorough research and Lean UX principles to guide products
+          I apply thorough research and Lean UX principles to guide products
           from conception to production and beyond.
         </p>
         <p>
-          In my spare time, I like to read, make music, and play soccer. If
-          you'd like to get in touch, reach me at{" "}
+          When I'm not working on side projects, I like to climb, paint, and
+          play soccer. If you'd like to get in touch, reach me at{" "}
           <a href="mailto:sbruno636@gmail.com" style={{ fontWeight: 600 }}>
             sbruno636@gmail.com
           </a>
