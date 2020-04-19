@@ -9,19 +9,19 @@
   margin-bottom: 64px;
 }
 
-nav {
+.largeNav {
   display: flex;
   flex-direction: column;
   list-style: none;
   margin-bottom: 160px;
 }
 
-nav > li {
+.largeNav > li {
   margin-bottom: 0.35rem;
 }
 
 @media (min-width: 640px) {
-  nav a:after {
+  .largeNav a:after {
     color: var(--grey2);
     content: "►";
     left: 8px;
@@ -30,7 +30,7 @@ nav > li {
     position: relative;
   }
 
-  nav .active::after {
+  .largeNav .active::after {
     color: var(--purple3);
   }
 }
@@ -102,12 +102,12 @@ a:hover {
     margin-right: 8px;
   }
 
-  .container > nav,
+  .container > .largeNav,
   .container > div {
     margin-bottom: 8px;
   }
 
-  .container > nav {
+  .container > .largeNav {
     grid-row: 1/3;
   }
 

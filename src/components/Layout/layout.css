@@ -61,7 +61,7 @@ main {
   justify-content: center;
 }
 /* medium devices */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   main {
     flex-direction: row;
     margin-top: 12vh;

@@ -2,7 +2,6 @@ import * as React from "react"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 import SEO from "../components/seo"
-import LeftNav from "../components/LeftNav/leftNav"
 import Layout from "../components/Layout/layout"
 import Content from "../components/Content/content"
 import headshot from "../data/headshot2.jpg"
@@ -14,7 +13,6 @@ config.autoAddCss = false
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <LeftNav />
     <Content>
       <section className={indexStyles.intro}>
         <h1>Steven Bruno</h1>

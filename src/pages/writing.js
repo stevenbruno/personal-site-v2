@@ -18,7 +18,6 @@ const WritingPage = () => {
   return (
     <Layout>
       <SEO title="Writing" />
-      <LeftNav />
       <Content>
         <h1>Writing</h1>
         {articles.map(article => {

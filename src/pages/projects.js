@@ -1,5 +1,4 @@
 import React from "react"
-import LeftNav from "../components/LeftNav/leftNav"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Content from "../components/Content/content"
@@ -33,7 +32,6 @@ const repos = [
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    <LeftNav />
     <Content>
       <h1>Projects</h1>
       {repos.map(repo => {

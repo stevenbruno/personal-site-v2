@@ -18,7 +18,7 @@ const NavLink = props => (
 
 export default () => (
   <div className={navStyles.container}>
-    <nav>
+    <nav className={navStyles.largeNav}>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/writing/">Writing</NavLink>
       <NavLink to="/projects/">Projects</NavLink>
