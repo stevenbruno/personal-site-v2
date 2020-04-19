@@ -19,6 +19,12 @@ class Layout extends Component {
     window.addEventListener("resize", this.handleResize.bind(this))
   }
 
+  componentDidUpdate() {
+    if (this.state.width != window.innerWidth) {
+      this.setState({ width: window.innerWidth })
+    }
+  }
+
   render() {
     return (
       <>
