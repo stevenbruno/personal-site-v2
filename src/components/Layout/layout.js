@@ -1,30 +1,37 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, Component } from "react"
 import PropTypes from "prop-types"
 import "./layout.css"
 import LeftNav from "../LeftNav/leftNav"
 import MobileNav from "../MobileNav/mobileNav"
 
-const Layout = ({ children }) => {
-  const [width, setWidth] = useState(window.innerWidth)
-  const updateWidth = () => {
-    setWidth(window.innerWidth)
+class Layout extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { width: 0 }
   }
 
-  useEffect(() => {
-    window.addEventListener("resize", updateWidth)
-    return () => window.removeEventListener("resize", updateWidth)
-  })
-  return (
-    <>
-      <div className="topSplash"></div>
-      <main>
-        {width >= 1024 ? <LeftNav /> : <MobileNav />}
-        {children}
-      </main>
-      <div className="triangle"></div>
-      <div className="triangle2"></div>
-    </>
-  )
+  handleResize() {
+    this.setState({ width: window.innerWidth })
+  }
+
+  componentDidMount() {
+    this.setState({ width: window.innerWidth })
+    window.addEventListener("resize", this.handleResize.bind(this))
+  }
+
+  render() {
+    return (
+      <>
+        <div className="topSplash"></div>
+        <main>
+          {this.state.width >= 1024 ? <LeftNav /> : <MobileNav />}
+          {this.props.children}
+        </main>
+        <div className="triangle"></div>
+        <div className="triangle2"></div>
+      </>
+    )
+  }
 }
 
 Layout.propTypes = {
