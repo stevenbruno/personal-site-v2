@@ -15,11 +15,27 @@
 }
 
 .Toast {
-  font-weight:600;
-  color: var(--orange6);
+  font-weight: 600;
 }
 
 .Toast:hover {
-  border-bottom: 2px solid var(--orange6);
   color: var(--orange6);
+}
+
+.social {
+  padding-top: 24px;
+  display: flex;
+  font-size: 24px;
+  color: var(--grey5);
+  justify-content: center;
+}
+
+.social a {
+  padding: 0 12px;
+}
+
+@media (min-width: 1024px) {
+  .social {
+    display: none;
+  }
 }
