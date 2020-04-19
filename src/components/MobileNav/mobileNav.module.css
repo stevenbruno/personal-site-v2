@@ -1,0 +1,33 @@
+.homeIcon {
+  font-size: 36px;
+}
+
+.active {
+  font-weight: 800;
+  color: var(--blue4);
+  border-bottom: 4px solid var(--blue4);
+}
+
+.mobileNav {
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  background: var(--grey2);
+  opacity: 94%;
+  height: 56px;
+  width: 100%;
+  padding: 0px 12px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--elevation2);
+}
+
+.mobileNav li {
+  list-style: none;
+  padding-right: 16px;
+}
+
+.mobileNav li:first-child {
+  flex-grow: 1;
+}
