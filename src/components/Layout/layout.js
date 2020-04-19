@@ -7,7 +7,7 @@ import MobileNav from "../MobileNav/mobileNav"
 class Layout extends Component {
   constructor(props) {
     super(props)
-    this.state = { width: 0 }
+    this.state = { width: null }
   }
 
   handleResize() {
@@ -30,7 +30,13 @@ class Layout extends Component {
       <>
         <div className="topSplash"></div>
         <main>
-          {this.state.width >= 1024 ? <LeftNav /> : <MobileNav />}
+          {this.state.width ? (
+            this.state.width >= 1024 ? (
+              <LeftNav />
+            ) : (
+              <MobileNav />
+            )
+          ) : null}
           {this.props.children}
         </main>
         <div className="triangle"></div>
