@@ -23,7 +23,7 @@
 }
 
 .social {
-  padding-top: 24px;
+  padding: 24px 0;
   display: flex;
   font-size: 24px;
   color: var(--grey5);
