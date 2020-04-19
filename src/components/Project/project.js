@@ -11,14 +11,12 @@ const Project = props => {
         <div className={projectStyles.projectDetails}>
           <p>{description}</p>
         </div>
-        <div className={projectStyles.tagsRow}>
-          <div className={projectStyles.tags}>
-            {tags.map(tag => (
-              <div className={projectStyles.tagContainer}>
-                <p className={projectStyles.tag}>#{tag}</p>
-              </div>
-            ))}
-          </div>
+        <div className={projectStyles.tags}>
+          {tags.map(tag => (
+            <div className={projectStyles.tagContainer}>
+              <p className={projectStyles.tag}>#{tag}</p>
+            </div>
+          ))}
         </div>
       </div>
       <div className={projectStyles.buttons}>

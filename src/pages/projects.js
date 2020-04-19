@@ -7,7 +7,8 @@ import Project from "../components/Project/project"
 const repos = [
   {
     name: "PersonalWebsite",
-    description: "The site you're on right now",
+    description:
+      "The site you're on right now. A responsive React app built on top of Gatsby. Fetches the DEV api for my blog posts.",
     githubURL: "https://github.com/stevenbruno/PersonalWebsite",
     landingURL: "https://stevenbruno.dev/",
     tags: ["React", "Gatsby", "GraphQL", "CSSModules"],
