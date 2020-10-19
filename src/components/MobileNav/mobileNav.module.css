@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
 
-  background: var(--grey2);
+  background: var(--white);
   box-shadow: var(--elevation2);
   margin-bottom: 16px;
   opacity: 0.95;
