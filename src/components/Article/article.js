@@ -23,12 +23,11 @@ const Article = props => {
             <p>Read on DEV.to</p>
           </div>
           <div className={articleStyles.flex}>
-            <img
-              className={articleStyles.reactionsImg}
-              src="https://practicaldev-herokuapp-com.freetls.fastly.net/assets/reactions-stack-ee166e138ca182a567f74c986b6f810f670f4d199aca9c550cc7e6f49f34bd33.png"
-              alt="heart"
-            ></img>
-            <p>{props.post.positive_reactions_count}</p>
+            <p>
+              {" "}
+              <span className={articleStyles.heart}>&#128153;</span>{" "}
+              {props.post.positive_reactions_count}
+            </p>
           </div>
         </div>
       </div>
