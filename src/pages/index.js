@@ -23,7 +23,7 @@ const IndexPage = () => (
       <section className={indexStyles.intro}>
         <h1>Steven Bruno</h1>
         <p>
-          I'm a designer and developer currently working at{" "}
+          Im a product designer currently working at{" "}
           <a href="https://pos.toasttab.com/" className={indexStyles.Toast}>
             Toast
           </a>{" "}
@@ -35,8 +35,7 @@ const IndexPage = () => (
           from conception to production and beyond.
         </p>
         <p>
-          When I'm not working on side projects, I like to climb, paint, and
-          play soccer. If you'd like to get in touch, reach me at{" "}
+          If you'd like to get in touch, reach me at{" "}
           <a href="mailto:sbruno636@gmail.com" style={{ fontWeight: 600 }}>
             sbruno636@gmail.com
           </a>
